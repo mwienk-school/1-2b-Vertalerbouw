@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/54/trunk/test/RuntimeTests
+END
+testdivisionbyzero.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/38/trunk/test/RuntimeTests/testdivisionbyzero.txt
+END
+testnotinitialized.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/54/trunk/test/RuntimeTests/testnotinitialized.txt
+END
+testruntime.bat
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/9/trunk/test/RuntimeTests/testruntime.bat
+END

@@ -1,0 +1,12 @@
+package vb.eindopdracht.test;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+public class Tester {
+	public Tester(String inputFile) throws FileNotFoundException {
+		InputStream in = new FileInputStream(inputFile);
+	}
+
+}

@@ -1,0 +1,4 @@
+spawn eenInt;
+read(eenInt);
+eenInt = 2*eenInt;
+print(eenInt);

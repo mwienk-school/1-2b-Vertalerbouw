@@ -1,0 +1,6 @@
+int changeInt(){
+	int i;
+	i = 5;
+	i
+
+//line 0:-1 mismatched input '<EOF>' expecting RCURLY

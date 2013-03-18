@@ -1,0 +1,6 @@
+proc increment(blaatInt) {
+	blaatInt + 1;
+}
+spawn eenInt;
+read(eenInt);
+if(eenInt == 50) then line(50,50,50,50) else line(40,40,40) fi;

@@ -1,0 +1,87 @@
+boolean w;
+w = false;
+int i; 
+i = 3;
+int j; 
+j = 6;
+int k;
+k = -4;
+
+int z;
+
+
+//------------optellen-------------
+z = i + j;
+if(z != 9) then
+	w = true
+fi;
+	
+z = i + 5;
+if(z != 8) then
+	w = true
+fi;
+
+//------------aftrekken-------------
+z = j - i;
+if(z != 3) then
+	w = true
+fi;
+
+z = i - 5;
+if(z != -2) then 
+	w = true
+fi;
+
+//------------vermenigvuldigen-------------
+z = i * j;
+if(z != 18) then
+	w = true
+fi;
+
+z = i * 5;
+if(z != 15) then
+	w = true
+fi;
+
+//------------aftrekken-------------
+z = j / i;
+if(z != 2) then
+	w = true
+fi;
+
+z = j / 2;
+if(z != 3) then
+	w = true
+fi;
+
+//----------combinatie-------------
+z = 3*5 + 6*8;
+
+if(z==168) then
+	w= true
+fi;
+
+if(z!=63) then
+	w= true
+fi;
+
+z = (3+5) * (6+8);
+
+if(z==41 || z==51) then
+	w= true
+fi;
+
+if(z!=112) then
+	w= true
+fi;
+
+//-----------done-------------
+
+z = ((3+9)/6)*7+8/4-(5--17);
+
+if(z==-6 && !w) then
+	print('t')
+	
+else
+	print('f')
+fi

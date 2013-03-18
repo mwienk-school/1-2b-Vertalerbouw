@@ -1,0 +1,3 @@
+spawn eenInt;
+read(eenInt);
+print(4);

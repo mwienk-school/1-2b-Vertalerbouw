@@ -1,0 +1,8 @@
+int changeInt {
+	int i;
+	i = 5;
+	i
+}
+
+//line 1:14 no viable alternative at input '{'
+//line 5:0 extraneous input '}' expecting EOF

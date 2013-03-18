@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/54/trunk/test/CorrectTests
+END
+testprint.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/54/trunk/test/CorrectTests/testprint.txt
+END
+testif.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/54/trunk/test/CorrectTests/testif.txt
+END
+testreferenceparameter.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/31/trunk/test/CorrectTests/testreferenceparameter.txt
+END
+testcompound.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54/trunk/test/CorrectTests/testcompound.txt
+END
+testfunction.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/46/trunk/test/CorrectTests/testfunction.txt
+END
+testnesting.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/28/trunk/test/CorrectTests/testnesting.txt
+END
+testall.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/54/trunk/test/CorrectTests/testall.txt
+END
+testwhile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/54/trunk/test/CorrectTests/testwhile.txt
+END
+testdeclarations.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/54/trunk/test/CorrectTests/testdeclarations.txt
+END
+testprocedure.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54/trunk/test/CorrectTests/testprocedure.txt
+END
+testcorrect.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/12/trunk/test/CorrectTests/testcorrect.bat
+END
+testmultivardeclaration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/54/trunk/test/CorrectTests/testmultivardeclaration.txt
+END
+testarithmetic.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/54/trunk/test/CorrectTests/testarithmetic.txt
+END

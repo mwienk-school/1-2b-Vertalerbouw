@@ -1,0 +1,41 @@
+int a;
+a = 1;
+boolean b;
+b = true;
+char c;
+c = 'x';
+
+
+int changeInt(int i){
+	b
+};
+
+a=changeInt(b);
+a=changeInt(c);
+b=changeInt(a);
+
+boolean isFalse(boolean b){
+	!b
+};
+
+b=isFalse(a);
+b=isFalse(c);
+a=isFalse(b);
+
+
+
+
+
+char realChar(char c){
+	c='o'
+};
+
+c=realChar(a);
+c=realChar(b);
+b=realChar(c);
+
+int badReturn(int i){
+	b
+};
+
+a=badReturn(a)

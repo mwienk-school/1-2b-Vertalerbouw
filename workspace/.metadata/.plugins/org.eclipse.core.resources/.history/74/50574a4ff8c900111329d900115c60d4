@@ -1,0 +1,11 @@
+package vb.eindopdracht.test;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class Tester {
+	public Tester(String inputFile) {
+		InputStream in = inputFile == null ? new FileInputStream("src/vb/eindopdracht/test/test3.txt") : new FileInputStream(inputFile);
+	}
+
+}

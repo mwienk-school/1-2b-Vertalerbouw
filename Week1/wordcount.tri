@@ -1,0 +1,33 @@
+let
+    proc process(var nLines: Integer, var nWords: Integer, var nChars: Integer) ~
+        let
+            var ch: Char
+        in begin 
+            get(var ch);
+            while \ eof() do begin
+                while \ eol() /\ \ eof() do begin
+                  nChars := nChars + 1;
+                  get(var ch)
+                end;
+                nChars := nChars +1;
+                nLines := nLines + 1;
+                get(var ch)
+            end
+         end;
+
+    var nLines: Integer;
+    var nWords: Integer;
+    var nChars: Integer
+in
+  while \ eof() do
+      begin
+      nLines := 0;
+      nWords := 0;
+      nChars := 0;
+      process(var nLines, var nWords, var nChars);
+      putint(nLines);puteol();
+      putint(nWords);puteol();
+      putint(nChars)
+      end
+  
+

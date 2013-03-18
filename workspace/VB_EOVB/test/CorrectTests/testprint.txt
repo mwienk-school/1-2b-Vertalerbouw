@@ -1,0 +1,25 @@
+int i;
+i = 4;
+char c;
+c = 'h';
+boolean b;
+b = false;
+
+print(4);
+print(i);
+
+print('h');
+print(c);
+
+print('0');
+print(b);
+
+print(7);
+print(i+3);
+
+print('1');
+print(i<5);
+
+print('0');
+print(i*7 < 12+4)
+

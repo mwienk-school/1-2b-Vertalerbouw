@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/5/trunk/javadoc/myTree
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/javadoc/myTree/package-use.html
+END
+MyTree.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/javadoc/myTree/MyTree.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/javadoc/myTree/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/javadoc/myTree/package-tree.html
+END
+MyTreeAdaptor.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/javadoc/myTree/MyTreeAdaptor.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/javadoc/myTree/package-frame.html
+END

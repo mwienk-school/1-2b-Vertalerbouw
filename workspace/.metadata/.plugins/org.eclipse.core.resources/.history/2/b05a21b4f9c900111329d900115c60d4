@@ -1,0 +1,59 @@
+package vb.eindopdracht.test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+
+import org.antlr.runtime.RecognitionException;
+
+import junit.framework.TestCase;
+
+public class Testing extends TestCase {
+	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+	private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
+
+	public void setUp() {
+	   // System.setOut(new PrintStream(outContent));
+	   // System.setErr(new PrintStream(errContent));
+	}
+	
+	public void testWhile01() {
+		try {
+			Tester test = new Tester("src/vb/eindopdracht/test/while/while01");
+			assertEquals(
+					"          PUSH              1 ; Push variable eenInt" +
+					"          PUSH              1 ; Push variable tweeInt" +
+					"          LOADL            50 ; Load literal value '50'" +
+					"          STORE(1)      0[SB] ; Store in variable eenInt" +
+					"          LOAD(1)       0[SB] ; Load the variable address" +
+					"          LOADL            50 ; Load literal value '50'" +
+					"          CALL            div ; Division" +
+					"          STORE(1)      1[SB] ; Store in variable tweeInt" +
+					"While0:   LOAD(1)       0[SB] ; Load the variable address" +
+					"          LOAD(1)       1[SB] ; Load the variable address" +
+					"          CALL             lt ; Lesser than" +
+					"          JUMPIF(0)  End0[CB] ; Jump past body" +
+					"          LOAD(1)       0[SB] ; Load the variable address" +
+					"          CALL         putint ; Print the int value on top of the stack" +
+					"          CALL         puteol ; Print a newline to the stdout" +
+					"          LOAD(1)       0[SB] ; Load the variable address" +
+					"          LOADL             1 ; Load literal value '1'" +
+					"          CALL            sub ; Subtract the top of the stack" +
+					"          STORE(1)      0[SB] ; Store in variable eenInt" +
+					"          JUMP      While0[CB] ; Jump to WHILE-expression" +
+					"End0:     POP(0)            2 ; Pop 2 variables" +
+					"          HALT                ; End of program" +
+					"", outContent.toString());
+		} catch (Exception e) {
+			fail();
+			e.printStackTrace();
+		}
+	}
+
+	public void tearDown() {
+	    System.setOut(null);
+	    System.setErr(null);
+	}
+
+
+}

@@ -1,0 +1,11 @@
+let
+    type Point ~ record
+		x: Integer,
+		y: Integer
+	end;
+    var p: Point
+in begin
+    p.x := 12;
+    p.y := 3;
+    putint(p.y)
+end

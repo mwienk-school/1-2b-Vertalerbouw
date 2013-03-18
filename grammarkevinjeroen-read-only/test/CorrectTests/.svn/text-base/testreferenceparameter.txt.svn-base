@@ -1,0 +1,14 @@
+void reference(int & j, int z) {
+	j = 3;
+	z = 4;
+	j = z
+};
+
+int i;
+i = 8;
+int k;
+k = 9;
+
+reference(k, i);
+print(k)
+

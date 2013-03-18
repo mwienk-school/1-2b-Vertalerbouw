@@ -1,0 +1,10 @@
+spawn eenInt;
+spawn tweeInt;
+read(eenInt);
+tweeInt = eenInt/2;
+while eenInt > tweeInt do 
+{
+	print(eenInt);
+	eenInt = eenInt - 1;
+} 
+od;

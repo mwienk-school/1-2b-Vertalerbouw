@@ -1,0 +1,73 @@
+boolean w;
+w = false;
+
+int i;
+i = 3;
+int k;
+k = 4;
+int l;
+l = 5;
+
+
+//------------procedure zonder argument------------
+void changeInt(){
+	i = 5
+};
+
+changeInt();
+
+if(i!=5) then
+	w=true
+fi;
+
+
+//------------procedure met argument------------
+void changeIntWithArgument(int j){
+	k = j+3
+};
+
+changeIntWithArgument(k);
+
+if(k!=7) then
+	w=true
+fi;
+
+//------------procedure met recursie------------
+void changeIntWithRecursion(int j){
+	l=j+1;
+	if(l<12) then
+		changeIntWithRecursion(l)
+	fi
+	
+};
+
+changeIntWithRecursion(l);
+
+if(l!=12) then
+	w=true
+fi;
+
+
+//------------fibonacci------------
+int v;
+void fibonacci(int x, int y){
+	
+	v = x+y;
+	if(v<100) then
+		fibonacci(y,v)
+	fi	
+};
+
+fibonacci(1,1);
+
+if(v!=144) then 
+	w=true
+fi;
+
+
+//------------done------------
+if(!w) then
+	print('t')
+else
+	print('f')
+fi

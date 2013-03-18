@@ -1,0 +1,18 @@
+int z;
+void A() {
+	int a;
+	z=0;
+	void B() {
+		a=1;
+		int b;
+		void C() {
+			b = 2		
+		};
+		C();
+		print(b)	
+	};
+	B();
+	print(a)
+};
+A();
+print(z)

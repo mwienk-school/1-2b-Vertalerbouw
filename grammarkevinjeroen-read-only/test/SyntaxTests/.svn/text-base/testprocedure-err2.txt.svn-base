@@ -1,0 +1,4 @@
+void changeInt(){
+	i = 5
+
+//line 0:-1 mismatched input '<EOF>' expecting RCURLY

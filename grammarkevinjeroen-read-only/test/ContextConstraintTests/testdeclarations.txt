@@ -1,0 +1,45 @@
+int i;
+i = 3;
+int i;
+i = 3;
+char a;
+a = 'a';
+char a;
+a = 'a';
+boolean b;
+b = true;
+boolean b;
+b = false; 
+
+
+if(i==i) then
+	int i;
+	i = 3;
+	char a;
+	a = 'a';
+	boolean b;
+	b = true
+fi;
+
+
+while(true) do
+	int i;
+	i = 3;
+	char a;
+	a = 'a';
+	boolean b;
+	b = true
+od
+
+/*
+expects:
+src.grammar.GrammarException: (i) on line:3 column:5 Identifier: i already declared on level 0
+src.grammar.GrammarException: (a) on line:7 column:6 Identifier: a already declared on level 0
+src.grammar.GrammarException: (b) on line:11 column:9 Identifier: b already declared on level 0
+src.grammar.GrammarException: (i) on line:16 column:6 Identifier: i already declared on level 2
+src.grammar.GrammarException: (a) on line:18 column:7 Identifier: a already declared on level 2
+src.grammar.GrammarException: (b) on line:20 column:10 Identifier: b already declared on level 2
+src.grammar.GrammarException: (i) on line:26 column:6 Identifier: i already declared on level 2
+src.grammar.GrammarException: (a) on line:28 column:7 Identifier: a already declared on level 2
+src.grammar.GrammarException: (b) on line:30 column:10 Identifier: b already declared on level 2
+*/

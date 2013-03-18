@@ -1,0 +1,65 @@
+boolean w;
+w = false;
+
+//------------integer------------
+int a;
+a = 3;
+int c;
+
+if(a!=3) then
+	w = true;
+	print(w)
+fi;
+
+c = a;
+
+if(c!=3) then
+	w = true;
+	print(w)
+fi;
+
+
+//------------boolean------------
+boolean g;
+g = true;
+boolean i;
+
+
+if(!g) then
+	w = true;
+	print(w)
+fi;
+
+i = g;
+
+if(!i) then
+	w = true;
+	print(w)
+fi;
+
+
+//------------char------------
+char r;
+r = 'd';
+char t;
+
+if(r!='d') then
+	w = true;
+	print(w)
+fi;
+
+
+t = r;
+
+if(t!='d') then
+	w = true;
+	print(w)
+fi;
+
+
+//------------done------------
+if(!w) then
+	print('t')
+else
+	print('f')
+fi

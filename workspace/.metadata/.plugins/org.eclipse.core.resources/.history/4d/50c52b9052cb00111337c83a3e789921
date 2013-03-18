@@ -1,0 +1,5 @@
+//Standard 3 - Test multiple assignment
+spawn aInt;
+spawn bInt;
+aInt = bInt = 12;
+print(aInt, ' ', bInt);

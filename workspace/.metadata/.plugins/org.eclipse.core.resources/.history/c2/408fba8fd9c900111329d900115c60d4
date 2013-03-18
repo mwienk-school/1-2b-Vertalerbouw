@@ -1,0 +1,7 @@
+spawn eenPill;
+eenPill = blue;
+spawn tweePill;
+tweePill = red;
+spawn zesChar;
+zesChar = 'c';
+print(256, 6, zesChar);

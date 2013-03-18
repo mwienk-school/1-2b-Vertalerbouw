@@ -1,0 +1,6 @@
+Type blaatIntArray [1..5];
+spawn aBlaatIntArray;
+aBlaatIntArray = [7, 5, 2, 0, 5];
+line(aBlaatIntArray[0]);
+line(aBlaatIntArray[1]);
+line(aBlaatIntArray[2]);

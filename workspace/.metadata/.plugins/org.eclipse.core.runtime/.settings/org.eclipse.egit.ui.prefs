@@ -1,0 +1,7 @@
+//BranchProjectTracker__/home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/.git_688a09cbdd9d5d47036f4ebca40bc858e52f74c4=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="688a09cbdd9d5d47036f4ebca40bc858e52f74c4">\n<project>/VB-Eindopdracht</project>\n<project>/VB-Week1</project>\n<project>/VB-Week2</project>\n<project>/VB-Week3</project>\n<project>/VB-Week4</project>\n<project>/VB-Week5</project>\n</projects>
+//BranchProjectTracker__/home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\n<projects branch\="master">\n<project>/VB-Eindopdracht</project>\n<project>/VB-Week1</project>\n<project>/VB-Week2</project>\n<project>/VB-Week3</project>\n<project>/VB-Week4</project>\n<project>/VB-Week5</project>\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>arrayfail debug</message>\n<message>TODO statements verwijderd</message>\n<message>Javadoc (en paar kleine test dingen)</message>\n<message>README &amp; Assembler toegevoegd</message>\n<message>Kleine fix</message>\n<message>revert</message>\n<message>Code cleanup</message>\n<message>Code Cleanup + javadoc</message>\n<message>Array als constant werkt</message>\n<message>Arrays ge\u00EFmplementeerd</message>\n</messages>
+eclipse.preferences.version=1
+merge_mode=0
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

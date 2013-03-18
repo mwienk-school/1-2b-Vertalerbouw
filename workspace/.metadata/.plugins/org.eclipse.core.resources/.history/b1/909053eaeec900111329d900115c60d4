@@ -1,0 +1,7 @@
+spawn eenInt;
+spawn tweeInt;
+read(eenInt);
+tweeInt = eenInt/2;
+print(tweeInt);
+while(eenInt > tweeInt) do print(eenInt); 
+od;

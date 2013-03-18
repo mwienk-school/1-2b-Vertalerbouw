@@ -1,0 +1,12 @@
+//Standard test (result should be )
+spawn eenInt;
+spawn eenPill;
+eenPill = red;
+eenInt = 10;
+while(eenPill) do {
+  print(eenInt);
+  eenInt = eenInt -1;
+  if(eenInt == 1) then {
+    eenPill = blue;
+  } fi;
+} od;

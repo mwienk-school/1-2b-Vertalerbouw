@@ -1,0 +1,7 @@
+int i;
+i=5;
+while(i<7) 
+	i = i + 1
+od 
+
+//line 4:1 missing DO at 'i'

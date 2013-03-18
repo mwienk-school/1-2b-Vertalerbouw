@@ -1,0 +1,53 @@
+program		=>	compExpr
+
+declaration	=>	constDecl | varDecl
+
+expression	=>	arithExpr | assignExpr | readExpr | printExpr | ccompExpr
+
+arithExpr	=>	operand (operator arithExpr)?
+
+assignExpr	=>	identifier BECOMES expression
+
+readExpr	=>	READ LPAREN varlist RPAREN
+
+printExpr	=>	PRINT LPAREN exprlist RPAREN
+
+ccompExpr	=>	LCURLY compExpr RCURLY
+
+compExpr	=>	( (declaration SEMICOLON)* expression SEMICOLON)+
+
+varlist		=>	identifier (COMMA identifier)* 
+
+exprlist	=>	expression (COMMA expression)*
+
+operand		=>	int | bool | char | identifier | ccompExpr
+
+int			=>	NUMBER
+
+bool		=>	TRUE | FALSE
+
+char		=>	CHARACTER
+
+identifier	=>	LETTER (NUMBER | LETTER)*
+
+operator	=>	-	|	+	|	!
+			|	*	|	/	|	%
+			|	+	|	-
+			|	<	|	<=	|	>=	|	>	|	==	|	<>
+			|	&&
+			|	||
+
+Notes:
+-	Every var/const must be declared
+-	declaration of var/const must precede its use
+-	assignment generates a result: the value of the left-hand side variable
+-	type of an assignment is the type of its left-hand side variable
+-	type of assignment lefthandside must equal type of righthandside
+-	If only a single variable is read, then the type of the read statement is equal to the type of this
+variable, and the result is its value.
+-	If more than one variable is read, then the read statement has type void.
+-	Each expression in a print statement must have a type that is not void.
+-	If only a single expression is printed, then the type of the print statement is equal to the type
+of this expression, and the result is its value.
+-	If more than one expression is printed, then the print statement itself has type void.
+

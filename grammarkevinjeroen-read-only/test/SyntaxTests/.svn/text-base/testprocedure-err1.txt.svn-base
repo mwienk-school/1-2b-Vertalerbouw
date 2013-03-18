@@ -1,0 +1,7 @@
+void changeInt{
+	int i;
+	i = 5
+}
+
+//line 1:0 no viable alternative at input 'void'
+//line 4:0 extraneous input '}' expecting EOF

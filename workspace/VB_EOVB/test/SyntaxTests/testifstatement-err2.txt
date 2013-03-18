@@ -1,0 +1,9 @@
+int i;  
+i = 3; 
+else(i==3) then
+	i = i + 1
+if
+	i = i * 2
+fi;
+	
+//line 3:0 no viable alternative at input 'else'

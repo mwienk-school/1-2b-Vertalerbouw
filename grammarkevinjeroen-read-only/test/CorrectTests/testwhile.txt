@@ -1,0 +1,38 @@
+boolean w;
+w = false;
+
+int i;
+i = 3;
+
+//---------------while met vergelijking------------
+while(i<7) do
+	i = i + 1
+od;
+
+if(i!=7) then
+	w = true
+fi;
+
+
+//---------------while met boolean variabele------------
+boolean b;
+b = true;
+i = 3;
+while(b) do
+	i= i+1;
+	if(i>6) then
+		b=false
+	fi
+od;
+
+if(i!=7) then
+	w = true
+fi;
+
+
+//---------------done------------
+if(!w) then
+	print('t')
+else 
+	print('f')
+fi

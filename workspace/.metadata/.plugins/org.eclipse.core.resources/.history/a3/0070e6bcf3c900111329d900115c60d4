@@ -1,0 +1,4 @@
+spawn eenInt;
+spawn tweeInt;
+read(eenInt);
+if(eenInt == 50) then line(50,50,50,50,50) fi;

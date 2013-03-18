@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="vb.week4.calc.CalcCodeGenerator"/>
+<fullyQualifiedTypeName name="Triangle.SyntacticAnalyzer.Token"/>
+<fullyQualifiedTypeName name="Triangle.AbstractSyntaxTrees.MultipleCaseStatement"/>
+<fullyQualifiedTypeName name="Triangle.AbstractSyntaxTrees.SingleCaseStatement"/>
+<fullyQualifiedTypeName name="Triangle.AbstractSyntaxTrees.CaseCommand"/>
+<fullyQualifiedTypeName name="Triangle.StdEnvironment"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.CrimsonCodeChecker"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.CrimsonCodeGenerator"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="checker.Checker"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.Variable"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.helpers.GeneratorHelper"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.IdEntry.Type"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.antlr.gunit.swingui.model.TestCase"/>
+<fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.ProcEntry"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.SymbolTable"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.IdEntry"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.symboltable.ArrayEntry"/>
+<fullyQualifiedTypeName name="vb.eindopdracht.helpers.CrimsonCodeHelper"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

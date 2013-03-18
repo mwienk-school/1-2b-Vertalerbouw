@@ -1,0 +1,6 @@
+void reference(int & j, int z) {
+	j = 3;
+	z=4;
+	j = z
+
+//line 0:-1 mismatched input '<EOF>' expecting RCURLY

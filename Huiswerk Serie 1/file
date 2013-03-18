@@ -1,0 +1,44 @@
+digraph {
+
+	ordering=out;
+	ranksep=.4;
+	bgcolor="lightgrey"; node [shape=box, fixedsize=false, fontsize=12, fontname="Helvetica-bold", fontcolor="blue"
+		width=.25, height=.25, color="black", fillcolor="white", style="filled, solid, bold"];
+	edge [arrowsize=.5, color="black", style="bold"]
+
+  n0 [label=""];
+  n1 [label="type"];
+  n1 [label="type"];
+  n2 [label="T1"];
+  n3 [label="record"];
+  n3 [label="record"];
+  n4 [label="i"];
+  n5 [label="Integer"];
+  n6 [label="c"];
+  n7 [label="Char"];
+  n8 [label="type"];
+  n8 [label="type"];
+  n9 [label="T2"];
+  n10 [label="record"];
+  n10 [label="record"];
+  n11 [label="b"];
+  n12 [label="Boolean"];
+  n13 [label="i"];
+  n14 [label="Integer"];
+
+  n0 -> n1 // "" -> "type"
+  n1 -> n2 // "type" -> "T1"
+  n1 -> n3 // "type" -> "record"
+  n3 -> n4 // "record" -> "i"
+  n3 -> n5 // "record" -> "Integer"
+  n3 -> n6 // "record" -> "c"
+  n3 -> n7 // "record" -> "Char"
+  n0 -> n8 // "" -> "type"
+  n8 -> n9 // "type" -> "T2"
+  n8 -> n10 // "type" -> "record"
+  n10 -> n11 // "record" -> "b"
+  n10 -> n12 // "record" -> "Boolean"
+  n10 -> n13 // "record" -> "i"
+  n10 -> n14 // "record" -> "Integer"
+
+}

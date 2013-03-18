@@ -1,0 +1,2 @@
+type T1 ~ record i: Integer, c: Char end;
+type T2 ~ record b: Boolean, i: Integer end

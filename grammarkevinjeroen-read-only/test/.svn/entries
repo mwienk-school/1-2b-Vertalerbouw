@@ -1,0 +1,40 @@
+10
+
+dir
+54
+http://grammarkevinjeroen.googlecode.com/svn/trunk/test
+http://grammarkevinjeroen.googlecode.com/svn
+
+
+
+2010-07-07T14:51:08.109590Z
+54
+lystthps
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+3f91ad4b-fc64-720b-5c87-97e6307d8ab4
+
+ContextConstraintTests
+dir
+
+CorrectTests
+dir
+
+RuntimeTests
+dir
+
+SyntaxTests
+dir
+

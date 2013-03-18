@@ -1,0 +1,7 @@
+let
+  var days : array 4 of Integer
+in 
+  begin
+  days := [12, 13, 15, 16];
+  putint(days[1]);
+  end

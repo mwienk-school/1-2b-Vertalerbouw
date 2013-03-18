@@ -1,0 +1,2384 @@
+// $ANTLR 3.4 /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g 2012-07-11 12:02:16
+
+  package vb.eindopdracht;
+
+
+import org.antlr.runtime.*;
+import java.util.Stack;
+import java.util.List;
+import java.util.ArrayList;
+
+@SuppressWarnings({"all", "warnings", "unchecked"})
+public class CrimsonCodeGrammarLexer extends Lexer {
+    public static final int EOF=-1;
+    public static final int AND=4;
+    public static final int APOS=5;
+    public static final int ARRAY=6;
+    public static final int BECOMES=7;
+    public static final int BOOLEAN=8;
+    public static final int CCOMPEXPR=9;
+    public static final int CHAR=10;
+    public static final int CHARACTER=11;
+    public static final int COLON=12;
+    public static final int COMMA=13;
+    public static final int COMMENT=14;
+    public static final int CONST=15;
+    public static final int DIGIT=16;
+    public static final int DIVIDE=17;
+    public static final int DO=18;
+    public static final int DOEND=19;
+    public static final int DOTDOT=20;
+    public static final int ELSE=21;
+    public static final int EQ=22;
+    public static final int FALSE=23;
+    public static final int FUNC=24;
+    public static final int GE=25;
+    public static final int GT=26;
+    public static final int IDENTIFIER=27;
+    public static final int IF=28;
+    public static final int IFEND=29;
+    public static final int INTEGER=30;
+    public static final int LCURLY=31;
+    public static final int LE=32;
+    public static final int LETTER=33;
+    public static final int LOWER=34;
+    public static final int LPAREN=35;
+    public static final int LSQUARE=36;
+    public static final int LT=37;
+    public static final int MINUS=38;
+    public static final int MOD=39;
+    public static final int NEG=40;
+    public static final int NEQ=41;
+    public static final int NUMBER=42;
+    public static final int OR=43;
+    public static final int PARAM=44;
+    public static final int PLUS=45;
+    public static final int PRINT=46;
+    public static final int PRINTLN=47;
+    public static final int PROC=48;
+    public static final int PROGRAM=49;
+    public static final int RCURLY=50;
+    public static final int READ=51;
+    public static final int RPAREN=52;
+    public static final int RSQUARE=53;
+    public static final int SEMICOLON=54;
+    public static final int STRING=55;
+    public static final int THEN=56;
+    public static final int TIMES=57;
+    public static final int TRUE=58;
+    public static final int TYPE=59;
+    public static final int UMINUS=60;
+    public static final int UPLUS=61;
+    public static final int UPPER=62;
+    public static final int VAR=63;
+    public static final int WHILE=64;
+    public static final int WS=65;
+
+    // delegates
+    // delegators
+    public Lexer[] getDelegates() {
+        return new Lexer[] {};
+    }
+
+    public CrimsonCodeGrammarLexer() {} 
+    public CrimsonCodeGrammarLexer(CharStream input) {
+        this(input, new RecognizerSharedState());
+    }
+    public CrimsonCodeGrammarLexer(CharStream input, RecognizerSharedState state) {
+        super(input,state);
+    }
+    public String getGrammarFileName() { return "/home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g"; }
+
+    // $ANTLR start "AND"
+    public final void mAND() throws RecognitionException {
+        try {
+            int _type = AND;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:11:5: ( '&&' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:11:7: '&&'
+            {
+            match("&&"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "AND"
+
+    // $ANTLR start "APOS"
+    public final void mAPOS() throws RecognitionException {
+        try {
+            int _type = APOS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:12:6: ( '\\'' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:12:8: '\\''
+            {
+            match('\''); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "APOS"
+
+    // $ANTLR start "ARRAY"
+    public final void mARRAY() throws RecognitionException {
+        try {
+            int _type = ARRAY;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:13:7: ( 'tokenArray' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:13:9: 'tokenArray'
+            {
+            match("tokenArray"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "ARRAY"
+
+    // $ANTLR start "BECOMES"
+    public final void mBECOMES() throws RecognitionException {
+        try {
+            int _type = BECOMES;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:14:9: ( '=' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:14:11: '='
+            {
+            match('='); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "BECOMES"
+
+    // $ANTLR start "BOOLEAN"
+    public final void mBOOLEAN() throws RecognitionException {
+        try {
+            int _type = BOOLEAN;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:15:9: ( 'Pill' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:15:11: 'Pill'
+            {
+            match("Pill"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "BOOLEAN"
+
+    // $ANTLR start "CCOMPEXPR"
+    public final void mCCOMPEXPR() throws RecognitionException {
+        try {
+            int _type = CCOMPEXPR;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:16:11: ( 'ccompexpr' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:16:13: 'ccompexpr'
+            {
+            match("ccompexpr"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "CCOMPEXPR"
+
+    // $ANTLR start "CHAR"
+    public final void mCHAR() throws RecognitionException {
+        try {
+            int _type = CHAR;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:17:6: ( 'Char' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:17:8: 'Char'
+            {
+            match("Char"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "CHAR"
+
+    // $ANTLR start "COLON"
+    public final void mCOLON() throws RecognitionException {
+        try {
+            int _type = COLON;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:18:7: ( ':' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:18:9: ':'
+            {
+            match(':'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "COLON"
+
+    // $ANTLR start "COMMA"
+    public final void mCOMMA() throws RecognitionException {
+        try {
+            int _type = COMMA;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:19:7: ( ',' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:19:9: ','
+            {
+            match(','); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "COMMA"
+
+    // $ANTLR start "CONST"
+    public final void mCONST() throws RecognitionException {
+        try {
+            int _type = CONST;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:20:7: ( 'const' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:20:9: 'const'
+            {
+            match("const"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "CONST"
+
+    // $ANTLR start "DIVIDE"
+    public final void mDIVIDE() throws RecognitionException {
+        try {
+            int _type = DIVIDE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:21:8: ( '/' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:21:10: '/'
+            {
+            match('/'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "DIVIDE"
+
+    // $ANTLR start "DO"
+    public final void mDO() throws RecognitionException {
+        try {
+            int _type = DO;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:22:4: ( 'do' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:22:6: 'do'
+            {
+            match("do"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "DO"
+
+    // $ANTLR start "DOEND"
+    public final void mDOEND() throws RecognitionException {
+        try {
+            int _type = DOEND;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:23:7: ( 'od' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:23:9: 'od'
+            {
+            match("od"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "DOEND"
+
+    // $ANTLR start "DOTDOT"
+    public final void mDOTDOT() throws RecognitionException {
+        try {
+            int _type = DOTDOT;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:24:8: ( '..' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:24:10: '..'
+            {
+            match(".."); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "DOTDOT"
+
+    // $ANTLR start "ELSE"
+    public final void mELSE() throws RecognitionException {
+        try {
+            int _type = ELSE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:25:6: ( 'else' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:25:8: 'else'
+            {
+            match("else"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "ELSE"
+
+    // $ANTLR start "EQ"
+    public final void mEQ() throws RecognitionException {
+        try {
+            int _type = EQ;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:26:4: ( '==' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:26:6: '=='
+            {
+            match("=="); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "EQ"
+
+    // $ANTLR start "FALSE"
+    public final void mFALSE() throws RecognitionException {
+        try {
+            int _type = FALSE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:27:7: ( 'blue' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:27:9: 'blue'
+            {
+            match("blue"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "FALSE"
+
+    // $ANTLR start "FUNC"
+    public final void mFUNC() throws RecognitionException {
+        try {
+            int _type = FUNC;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:28:6: ( 'func' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:28:8: 'func'
+            {
+            match("func"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "FUNC"
+
+    // $ANTLR start "GE"
+    public final void mGE() throws RecognitionException {
+        try {
+            int _type = GE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:29:4: ( '>=' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:29:6: '>='
+            {
+            match(">="); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "GE"
+
+    // $ANTLR start "GT"
+    public final void mGT() throws RecognitionException {
+        try {
+            int _type = GT;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:30:4: ( '>' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:30:6: '>'
+            {
+            match('>'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "GT"
+
+    // $ANTLR start "IF"
+    public final void mIF() throws RecognitionException {
+        try {
+            int _type = IF;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:31:4: ( 'if' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:31:6: 'if'
+            {
+            match("if"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "IF"
+
+    // $ANTLR start "IFEND"
+    public final void mIFEND() throws RecognitionException {
+        try {
+            int _type = IFEND;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:32:7: ( 'fi' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:32:9: 'fi'
+            {
+            match("fi"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "IFEND"
+
+    // $ANTLR start "INTEGER"
+    public final void mINTEGER() throws RecognitionException {
+        try {
+            int _type = INTEGER;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:33:9: ( 'Int' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:33:11: 'Int'
+            {
+            match("Int"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "INTEGER"
+
+    // $ANTLR start "LCURLY"
+    public final void mLCURLY() throws RecognitionException {
+        try {
+            int _type = LCURLY;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:34:8: ( '{' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:34:10: '{'
+            {
+            match('{'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LCURLY"
+
+    // $ANTLR start "LE"
+    public final void mLE() throws RecognitionException {
+        try {
+            int _type = LE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:35:4: ( '<=' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:35:6: '<='
+            {
+            match("<="); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LE"
+
+    // $ANTLR start "LPAREN"
+    public final void mLPAREN() throws RecognitionException {
+        try {
+            int _type = LPAREN;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:36:8: ( '(' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:36:10: '('
+            {
+            match('('); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LPAREN"
+
+    // $ANTLR start "LSQUARE"
+    public final void mLSQUARE() throws RecognitionException {
+        try {
+            int _type = LSQUARE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:37:9: ( '[' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:37:11: '['
+            {
+            match('['); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LSQUARE"
+
+    // $ANTLR start "LT"
+    public final void mLT() throws RecognitionException {
+        try {
+            int _type = LT;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:38:4: ( '<' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:38:6: '<'
+            {
+            match('<'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LT"
+
+    // $ANTLR start "MINUS"
+    public final void mMINUS() throws RecognitionException {
+        try {
+            int _type = MINUS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:39:7: ( '-' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:39:9: '-'
+            {
+            match('-'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "MINUS"
+
+    // $ANTLR start "MOD"
+    public final void mMOD() throws RecognitionException {
+        try {
+            int _type = MOD;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:40:5: ( '%' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:40:7: '%'
+            {
+            match('%'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "MOD"
+
+    // $ANTLR start "NEG"
+    public final void mNEG() throws RecognitionException {
+        try {
+            int _type = NEG;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:41:5: ( '!' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:41:7: '!'
+            {
+            match('!'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "NEG"
+
+    // $ANTLR start "NEQ"
+    public final void mNEQ() throws RecognitionException {
+        try {
+            int _type = NEQ;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:42:5: ( '!=' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:42:7: '!='
+            {
+            match("!="); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "NEQ"
+
+    // $ANTLR start "OR"
+    public final void mOR() throws RecognitionException {
+        try {
+            int _type = OR;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:43:4: ( '||' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:43:6: '||'
+            {
+            match("||"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "OR"
+
+    // $ANTLR start "PARAM"
+    public final void mPARAM() throws RecognitionException {
+        try {
+            int _type = PARAM;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:44:7: ( 'param' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:44:9: 'param'
+            {
+            match("param"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PARAM"
+
+    // $ANTLR start "PLUS"
+    public final void mPLUS() throws RecognitionException {
+        try {
+            int _type = PLUS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:45:6: ( '+' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:45:8: '+'
+            {
+            match('+'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PLUS"
+
+    // $ANTLR start "PRINT"
+    public final void mPRINT() throws RecognitionException {
+        try {
+            int _type = PRINT;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:46:7: ( 'print' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:46:9: 'print'
+            {
+            match("print"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PRINT"
+
+    // $ANTLR start "PRINTLN"
+    public final void mPRINTLN() throws RecognitionException {
+        try {
+            int _type = PRINTLN;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:47:9: ( 'line' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:47:11: 'line'
+            {
+            match("line"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PRINTLN"
+
+    // $ANTLR start "PROC"
+    public final void mPROC() throws RecognitionException {
+        try {
+            int _type = PROC;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:48:6: ( 'proc' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:48:8: 'proc'
+            {
+            match("proc"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PROC"
+
+    // $ANTLR start "PROGRAM"
+    public final void mPROGRAM() throws RecognitionException {
+        try {
+            int _type = PROGRAM;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:49:9: ( 'program' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:49:11: 'program'
+            {
+            match("program"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "PROGRAM"
+
+    // $ANTLR start "RCURLY"
+    public final void mRCURLY() throws RecognitionException {
+        try {
+            int _type = RCURLY;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:50:8: ( '}' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:50:10: '}'
+            {
+            match('}'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "RCURLY"
+
+    // $ANTLR start "READ"
+    public final void mREAD() throws RecognitionException {
+        try {
+            int _type = READ;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:51:6: ( 'read' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:51:8: 'read'
+            {
+            match("read"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "READ"
+
+    // $ANTLR start "RPAREN"
+    public final void mRPAREN() throws RecognitionException {
+        try {
+            int _type = RPAREN;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:52:8: ( ')' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:52:10: ')'
+            {
+            match(')'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "RPAREN"
+
+    // $ANTLR start "RSQUARE"
+    public final void mRSQUARE() throws RecognitionException {
+        try {
+            int _type = RSQUARE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:53:9: ( ']' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:53:11: ']'
+            {
+            match(']'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "RSQUARE"
+
+    // $ANTLR start "SEMICOLON"
+    public final void mSEMICOLON() throws RecognitionException {
+        try {
+            int _type = SEMICOLON;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:54:11: ( ';' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:54:13: ';'
+            {
+            match(';'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "SEMICOLON"
+
+    // $ANTLR start "STRING"
+    public final void mSTRING() throws RecognitionException {
+        try {
+            int _type = STRING;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:55:8: ( 'String' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:55:10: 'String'
+            {
+            match("String"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "STRING"
+
+    // $ANTLR start "THEN"
+    public final void mTHEN() throws RecognitionException {
+        try {
+            int _type = THEN;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:56:6: ( 'then' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:56:8: 'then'
+            {
+            match("then"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "THEN"
+
+    // $ANTLR start "TIMES"
+    public final void mTIMES() throws RecognitionException {
+        try {
+            int _type = TIMES;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:57:7: ( '*' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:57:9: '*'
+            {
+            match('*'); 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "TIMES"
+
+    // $ANTLR start "TRUE"
+    public final void mTRUE() throws RecognitionException {
+        try {
+            int _type = TRUE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:58:6: ( 'red' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:58:8: 'red'
+            {
+            match("red"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "TRUE"
+
+    // $ANTLR start "TYPE"
+    public final void mTYPE() throws RecognitionException {
+        try {
+            int _type = TYPE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:59:6: ( 'Type' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:59:8: 'Type'
+            {
+            match("Type"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "TYPE"
+
+    // $ANTLR start "UMINUS"
+    public final void mUMINUS() throws RecognitionException {
+        try {
+            int _type = UMINUS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:60:8: ( 'uminus' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:60:10: 'uminus'
+            {
+            match("uminus"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "UMINUS"
+
+    // $ANTLR start "UPLUS"
+    public final void mUPLUS() throws RecognitionException {
+        try {
+            int _type = UPLUS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:61:7: ( 'uplus' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:61:9: 'uplus'
+            {
+            match("uplus"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "UPLUS"
+
+    // $ANTLR start "VAR"
+    public final void mVAR() throws RecognitionException {
+        try {
+            int _type = VAR;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:62:5: ( 'spawn' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:62:7: 'spawn'
+            {
+            match("spawn"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "VAR"
+
+    // $ANTLR start "WHILE"
+    public final void mWHILE() throws RecognitionException {
+        try {
+            int _type = WHILE;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:63:7: ( 'while' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:63:9: 'while'
+            {
+            match("while"); 
+
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "WHILE"
+
+    // $ANTLR start "COMMENT"
+    public final void mCOMMENT() throws RecognitionException {
+        try {
+            int _type = COMMENT;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:237:3: ( '//' ( . )* '\\n' )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:237:7: '//' ( . )* '\\n'
+            {
+            match("//"); 
+
+
+
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:237:12: ( . )*
+            loop1:
+            do {
+                int alt1=2;
+                int LA1_0 = input.LA(1);
+
+                if ( (LA1_0=='\n') ) {
+                    alt1=2;
+                }
+                else if ( ((LA1_0 >= '\u0000' && LA1_0 <= '\t')||(LA1_0 >= '\u000B' && LA1_0 <= '\uFFFF')) ) {
+                    alt1=1;
+                }
+
+
+                switch (alt1) {
+            	case 1 :
+            	    // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:237:12: .
+            	    {
+            	    matchAny(); 
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop1;
+                }
+            } while (true);
+
+
+            match('\n'); 
+
+             _channel=HIDDEN; 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "COMMENT"
+
+    // $ANTLR start "WS"
+    public final void mWS() throws RecognitionException {
+        try {
+            int _type = WS;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:242:3: ( ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )+ )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:242:7: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )+
+            {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:242:7: ( ' ' | '\\t' | '\\f' | '\\r' | '\\n' )+
+            int cnt2=0;
+            loop2:
+            do {
+                int alt2=2;
+                int LA2_0 = input.LA(1);
+
+                if ( ((LA2_0 >= '\t' && LA2_0 <= '\n')||(LA2_0 >= '\f' && LA2_0 <= '\r')||LA2_0==' ') ) {
+                    alt2=1;
+                }
+
+
+                switch (alt2) {
+            	case 1 :
+            	    // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            	    {
+            	    if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||(input.LA(1) >= '\f' && input.LA(1) <= '\r')||input.LA(1)==' ' ) {
+            	        input.consume();
+            	    }
+            	    else {
+            	        MismatchedSetException mse = new MismatchedSetException(null,input);
+            	        recover(mse);
+            	        throw mse;
+            	    }
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    if ( cnt2 >= 1 ) break loop2;
+                        EarlyExitException eee =
+                            new EarlyExitException(2, input);
+                        throw eee;
+                }
+                cnt2++;
+            } while (true);
+
+
+             _channel=HIDDEN; 
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "WS"
+
+    // $ANTLR start "IDENTIFIER"
+    public final void mIDENTIFIER() throws RecognitionException {
+        try {
+            int _type = IDENTIFIER;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:247:3: ( LETTER ( LETTER | DIGIT )* )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:247:7: LETTER ( LETTER | DIGIT )*
+            {
+            mLETTER(); 
+
+
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:247:14: ( LETTER | DIGIT )*
+            loop3:
+            do {
+                int alt3=2;
+                int LA3_0 = input.LA(1);
+
+                if ( ((LA3_0 >= '0' && LA3_0 <= '9')||(LA3_0 >= 'A' && LA3_0 <= 'Z')||(LA3_0 >= 'a' && LA3_0 <= 'z')) ) {
+                    alt3=1;
+                }
+
+
+                switch (alt3) {
+            	case 1 :
+            	    // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            	    {
+            	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
+            	        input.consume();
+            	    }
+            	    else {
+            	        MismatchedSetException mse = new MismatchedSetException(null,input);
+            	        recover(mse);
+            	        throw mse;
+            	    }
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    break loop3;
+                }
+            } while (true);
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "IDENTIFIER"
+
+    // $ANTLR start "NUMBER"
+    public final void mNUMBER() throws RecognitionException {
+        try {
+            int _type = NUMBER;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:251:3: ( ( DIGIT )+ )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:251:7: ( DIGIT )+
+            {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:251:7: ( DIGIT )+
+            int cnt4=0;
+            loop4:
+            do {
+                int alt4=2;
+                int LA4_0 = input.LA(1);
+
+                if ( ((LA4_0 >= '0' && LA4_0 <= '9')) ) {
+                    alt4=1;
+                }
+
+
+                switch (alt4) {
+            	case 1 :
+            	    // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            	    {
+            	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
+            	        input.consume();
+            	    }
+            	    else {
+            	        MismatchedSetException mse = new MismatchedSetException(null,input);
+            	        recover(mse);
+            	        throw mse;
+            	    }
+
+
+            	    }
+            	    break;
+
+            	default :
+            	    if ( cnt4 >= 1 ) break loop4;
+                        EarlyExitException eee =
+                            new EarlyExitException(4, input);
+                        throw eee;
+                }
+                cnt4++;
+            } while (true);
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "NUMBER"
+
+    // $ANTLR start "CHARACTER"
+    public final void mCHARACTER() throws RecognitionException {
+        try {
+            int _type = CHARACTER;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:259:3: ( APOS LETTER APOS )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:259:7: APOS LETTER APOS
+            {
+            mAPOS(); 
+
+
+            mLETTER(); 
+
+
+            mAPOS(); 
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+
+                $this.setText(getText());
+              
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "CHARACTER"
+
+    // $ANTLR start "DIGIT"
+    public final void mDIGIT() throws RecognitionException {
+        try {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:262:17: ( ( '0' .. '9' ) )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            {
+            if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
+                input.consume();
+            }
+            else {
+                MismatchedSetException mse = new MismatchedSetException(null,input);
+                recover(mse);
+                throw mse;
+            }
+
+
+            }
+
+
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "DIGIT"
+
+    // $ANTLR start "LOWER"
+    public final void mLOWER() throws RecognitionException {
+        try {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:263:17: ( ( 'a' .. 'z' ) )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            {
+            if ( (input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
+                input.consume();
+            }
+            else {
+                MismatchedSetException mse = new MismatchedSetException(null,input);
+                recover(mse);
+                throw mse;
+            }
+
+
+            }
+
+
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LOWER"
+
+    // $ANTLR start "UPPER"
+    public final void mUPPER() throws RecognitionException {
+        try {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:264:17: ( ( 'A' .. 'Z' ) )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            {
+            if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z') ) {
+                input.consume();
+            }
+            else {
+                MismatchedSetException mse = new MismatchedSetException(null,input);
+                recover(mse);
+                throw mse;
+            }
+
+
+            }
+
+
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "UPPER"
+
+    // $ANTLR start "LETTER"
+    public final void mLETTER() throws RecognitionException {
+        try {
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:265:17: ( ( LOWER | UPPER ) )
+            // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:
+            {
+            if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
+                input.consume();
+            }
+            else {
+                MismatchedSetException mse = new MismatchedSetException(null,input);
+                recover(mse);
+                throw mse;
+            }
+
+
+            }
+
+
+        }
+        finally {
+        	// do for sure before leaving
+        }
+    }
+    // $ANTLR end "LETTER"
+
+    public void mTokens() throws RecognitionException {
+        // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:8: ( AND | APOS | ARRAY | BECOMES | BOOLEAN | CCOMPEXPR | CHAR | COLON | COMMA | CONST | DIVIDE | DO | DOEND | DOTDOT | ELSE | EQ | FALSE | FUNC | GE | GT | IF | IFEND | INTEGER | LCURLY | LE | LPAREN | LSQUARE | LT | MINUS | MOD | NEG | NEQ | OR | PARAM | PLUS | PRINT | PRINTLN | PROC | PROGRAM | RCURLY | READ | RPAREN | RSQUARE | SEMICOLON | STRING | THEN | TIMES | TRUE | TYPE | UMINUS | UPLUS | VAR | WHILE | COMMENT | WS | IDENTIFIER | NUMBER | CHARACTER )
+        int alt5=58;
+        alt5 = dfa5.predict(input);
+        switch (alt5) {
+            case 1 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:10: AND
+                {
+                mAND(); 
+
+
+                }
+                break;
+            case 2 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:14: APOS
+                {
+                mAPOS(); 
+
+
+                }
+                break;
+            case 3 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:19: ARRAY
+                {
+                mARRAY(); 
+
+
+                }
+                break;
+            case 4 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:25: BECOMES
+                {
+                mBECOMES(); 
+
+
+                }
+                break;
+            case 5 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:33: BOOLEAN
+                {
+                mBOOLEAN(); 
+
+
+                }
+                break;
+            case 6 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:41: CCOMPEXPR
+                {
+                mCCOMPEXPR(); 
+
+
+                }
+                break;
+            case 7 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:51: CHAR
+                {
+                mCHAR(); 
+
+
+                }
+                break;
+            case 8 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:56: COLON
+                {
+                mCOLON(); 
+
+
+                }
+                break;
+            case 9 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:62: COMMA
+                {
+                mCOMMA(); 
+
+
+                }
+                break;
+            case 10 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:68: CONST
+                {
+                mCONST(); 
+
+
+                }
+                break;
+            case 11 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:74: DIVIDE
+                {
+                mDIVIDE(); 
+
+
+                }
+                break;
+            case 12 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:81: DO
+                {
+                mDO(); 
+
+
+                }
+                break;
+            case 13 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:84: DOEND
+                {
+                mDOEND(); 
+
+
+                }
+                break;
+            case 14 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:90: DOTDOT
+                {
+                mDOTDOT(); 
+
+
+                }
+                break;
+            case 15 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:97: ELSE
+                {
+                mELSE(); 
+
+
+                }
+                break;
+            case 16 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:102: EQ
+                {
+                mEQ(); 
+
+
+                }
+                break;
+            case 17 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:105: FALSE
+                {
+                mFALSE(); 
+
+
+                }
+                break;
+            case 18 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:111: FUNC
+                {
+                mFUNC(); 
+
+
+                }
+                break;
+            case 19 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:116: GE
+                {
+                mGE(); 
+
+
+                }
+                break;
+            case 20 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:119: GT
+                {
+                mGT(); 
+
+
+                }
+                break;
+            case 21 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:122: IF
+                {
+                mIF(); 
+
+
+                }
+                break;
+            case 22 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:125: IFEND
+                {
+                mIFEND(); 
+
+
+                }
+                break;
+            case 23 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:131: INTEGER
+                {
+                mINTEGER(); 
+
+
+                }
+                break;
+            case 24 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:139: LCURLY
+                {
+                mLCURLY(); 
+
+
+                }
+                break;
+            case 25 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:146: LE
+                {
+                mLE(); 
+
+
+                }
+                break;
+            case 26 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:149: LPAREN
+                {
+                mLPAREN(); 
+
+
+                }
+                break;
+            case 27 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:156: LSQUARE
+                {
+                mLSQUARE(); 
+
+
+                }
+                break;
+            case 28 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:164: LT
+                {
+                mLT(); 
+
+
+                }
+                break;
+            case 29 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:167: MINUS
+                {
+                mMINUS(); 
+
+
+                }
+                break;
+            case 30 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:173: MOD
+                {
+                mMOD(); 
+
+
+                }
+                break;
+            case 31 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:177: NEG
+                {
+                mNEG(); 
+
+
+                }
+                break;
+            case 32 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:181: NEQ
+                {
+                mNEQ(); 
+
+
+                }
+                break;
+            case 33 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:185: OR
+                {
+                mOR(); 
+
+
+                }
+                break;
+            case 34 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:188: PARAM
+                {
+                mPARAM(); 
+
+
+                }
+                break;
+            case 35 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:194: PLUS
+                {
+                mPLUS(); 
+
+
+                }
+                break;
+            case 36 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:199: PRINT
+                {
+                mPRINT(); 
+
+
+                }
+                break;
+            case 37 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:205: PRINTLN
+                {
+                mPRINTLN(); 
+
+
+                }
+                break;
+            case 38 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:213: PROC
+                {
+                mPROC(); 
+
+
+                }
+                break;
+            case 39 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:218: PROGRAM
+                {
+                mPROGRAM(); 
+
+
+                }
+                break;
+            case 40 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:226: RCURLY
+                {
+                mRCURLY(); 
+
+
+                }
+                break;
+            case 41 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:233: READ
+                {
+                mREAD(); 
+
+
+                }
+                break;
+            case 42 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:238: RPAREN
+                {
+                mRPAREN(); 
+
+
+                }
+                break;
+            case 43 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:245: RSQUARE
+                {
+                mRSQUARE(); 
+
+
+                }
+                break;
+            case 44 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:253: SEMICOLON
+                {
+                mSEMICOLON(); 
+
+
+                }
+                break;
+            case 45 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:263: STRING
+                {
+                mSTRING(); 
+
+
+                }
+                break;
+            case 46 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:270: THEN
+                {
+                mTHEN(); 
+
+
+                }
+                break;
+            case 47 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:275: TIMES
+                {
+                mTIMES(); 
+
+
+                }
+                break;
+            case 48 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:281: TRUE
+                {
+                mTRUE(); 
+
+
+                }
+                break;
+            case 49 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:286: TYPE
+                {
+                mTYPE(); 
+
+
+                }
+                break;
+            case 50 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:291: UMINUS
+                {
+                mUMINUS(); 
+
+
+                }
+                break;
+            case 51 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:298: UPLUS
+                {
+                mUPLUS(); 
+
+
+                }
+                break;
+            case 52 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:304: VAR
+                {
+                mVAR(); 
+
+
+                }
+                break;
+            case 53 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:308: WHILE
+                {
+                mWHILE(); 
+
+
+                }
+                break;
+            case 54 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:314: COMMENT
+                {
+                mCOMMENT(); 
+
+
+                }
+                break;
+            case 55 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:322: WS
+                {
+                mWS(); 
+
+
+                }
+                break;
+            case 56 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:325: IDENTIFIER
+                {
+                mIDENTIFIER(); 
+
+
+                }
+                break;
+            case 57 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:336: NUMBER
+                {
+                mNUMBER(); 
+
+
+                }
+                break;
+            case 58 :
+                // /home/mark/Documenten/School/1-2b-Vertalerbouw/repository/School/VB-Eindopdracht/src/vb/eindopdracht/CrimsonCodeGrammar.g:1:343: CHARACTER
+                {
+                mCHARACTER(); 
+
+
+                }
+                break;
+
+        }
+
+    }
+
+
+    protected DFA5 dfa5 = new DFA5(this);
+    static final String DFA5_eotS =
+        "\2\uffff\1\55\1\53\1\62\3\53\2\uffff\1\70\2\53\1\uffff\3\53\1\100"+
+        "\2\53\1\uffff\1\104\4\uffff\1\106\1\uffff\1\53\1\uffff\1\53\1\uffff"+
+        "\1\53\3\uffff\1\53\1\uffff\4\53\5\uffff\2\53\2\uffff\4\53\2\uffff"+
+        "\1\127\1\130\3\53\1\134\2\uffff\1\135\1\53\4\uffff\20\53\2\uffff"+
+        "\3\53\2\uffff\1\164\5\53\1\173\7\53\1\u0083\1\u0084\2\53\1\u0087"+
+        "\1\u0088\1\u0089\1\u008a\1\uffff\2\53\1\u008d\1\53\1\u008f\1\u0090"+
+        "\1\uffff\1\53\1\u0092\5\53\2\uffff\1\53\1\u0099\4\uffff\1\u009a"+
+        "\1\u009b\1\uffff\1\53\2\uffff\1\53\1\uffff\1\53\1\u009f\1\u00a0"+
+        "\1\u00a1\2\53\3\uffff\1\53\1\u00a5\1\u00a6\3\uffff\2\53\1\u00a9"+
+        "\2\uffff\2\53\1\uffff\1\53\1\u00ad\1\u00ae\2\uffff";
+    static final String DFA5_eofS =
+        "\u00af\uffff";
+    static final String DFA5_minS =
+        "\1\11\1\uffff\1\101\1\150\1\75\1\151\1\143\1\150\2\uffff\1\57\1"+
+        "\157\1\144\1\uffff\2\154\1\151\1\75\1\146\1\156\1\uffff\1\75\4\uffff"+
+        "\1\75\1\uffff\1\141\1\uffff\1\151\1\uffff\1\145\3\uffff\1\164\1"+
+        "\uffff\1\171\1\155\1\160\1\150\5\uffff\1\153\1\145\2\uffff\1\154"+
+        "\1\157\1\156\1\141\2\uffff\2\60\1\163\1\165\1\156\1\60\2\uffff\1"+
+        "\60\1\164\4\uffff\1\162\1\151\1\156\1\141\1\162\1\160\1\151\1\154"+
+        "\1\141\1\151\1\145\1\156\1\154\1\155\1\163\1\162\2\uffff\2\145\1"+
+        "\143\2\uffff\1\60\1\141\1\156\1\143\1\145\1\144\1\60\1\151\1\145"+
+        "\1\156\1\165\1\167\1\154\1\156\2\60\1\160\1\164\4\60\1\uffff\1\155"+
+        "\1\164\1\60\1\162\2\60\1\uffff\1\156\1\60\1\165\1\163\1\156\1\145"+
+        "\1\101\2\uffff\1\145\1\60\4\uffff\2\60\1\uffff\1\141\2\uffff\1\147"+
+        "\1\uffff\1\163\3\60\1\162\1\170\3\uffff\1\155\2\60\3\uffff\1\162"+
+        "\1\160\1\60\2\uffff\1\141\1\162\1\uffff\1\171\2\60\2\uffff";
+    static final String DFA5_maxS =
+        "\1\175\1\uffff\1\172\1\157\1\75\1\151\1\157\1\150\2\uffff\1\57\1"+
+        "\157\1\144\1\uffff\2\154\1\165\1\75\1\146\1\156\1\uffff\1\75\4\uffff"+
+        "\1\75\1\uffff\1\162\1\uffff\1\151\1\uffff\1\145\3\uffff\1\164\1"+
+        "\uffff\1\171\2\160\1\150\5\uffff\1\153\1\145\2\uffff\1\154\1\157"+
+        "\1\156\1\141\2\uffff\2\172\1\163\1\165\1\156\1\172\2\uffff\1\172"+
+        "\1\164\4\uffff\1\162\1\157\1\156\1\144\1\162\1\160\1\151\1\154\1"+
+        "\141\1\151\1\145\1\156\1\154\1\155\1\163\1\162\2\uffff\2\145\1\143"+
+        "\2\uffff\1\172\1\141\1\156\1\147\1\145\1\144\1\172\1\151\1\145\1"+
+        "\156\1\165\1\167\1\154\1\156\2\172\1\160\1\164\4\172\1\uffff\1\155"+
+        "\1\164\1\172\1\162\2\172\1\uffff\1\156\1\172\1\165\1\163\1\156\1"+
+        "\145\1\101\2\uffff\1\145\1\172\4\uffff\2\172\1\uffff\1\141\2\uffff"+
+        "\1\147\1\uffff\1\163\3\172\1\162\1\170\3\uffff\1\155\2\172\3\uffff"+
+        "\1\162\1\160\1\172\2\uffff\1\141\1\162\1\uffff\1\171\2\172\2\uffff";
+    static final String DFA5_acceptS =
+        "\1\uffff\1\1\6\uffff\1\10\1\11\3\uffff\1\16\6\uffff\1\30\1\uffff"+
+        "\1\32\1\33\1\35\1\36\1\uffff\1\41\1\uffff\1\43\1\uffff\1\50\1\uffff"+
+        "\1\52\1\53\1\54\1\uffff\1\57\4\uffff\1\67\1\70\1\71\1\2\1\72\2\uffff"+
+        "\1\20\1\4\4\uffff\1\66\1\13\6\uffff\1\23\1\24\2\uffff\1\31\1\34"+
+        "\1\40\1\37\20\uffff\1\14\1\15\3\uffff\1\26\1\25\26\uffff\1\27\6"+
+        "\uffff\1\60\7\uffff\1\56\1\5\2\uffff\1\7\1\17\1\21\1\22\2\uffff"+
+        "\1\46\1\uffff\1\45\1\51\1\uffff\1\61\6\uffff\1\12\1\42\1\44\3\uffff"+
+        "\1\63\1\64\1\65\3\uffff\1\55\1\62\2\uffff\1\47\3\uffff\1\6\1\3";
+    static final String DFA5_specialS =
+        "\u00af\uffff}>";
+    static final String[] DFA5_transitionS = {
+            "\2\52\1\uffff\2\52\22\uffff\1\52\1\32\3\uffff\1\31\1\1\1\2\1"+
+            "\26\1\41\1\45\1\35\1\11\1\30\1\15\1\12\12\54\1\10\1\43\1\25"+
+            "\1\4\1\21\2\uffff\2\53\1\7\5\53\1\23\6\53\1\5\2\53\1\44\1\46"+
+            "\6\53\1\27\1\uffff\1\42\3\uffff\1\53\1\17\1\6\1\13\1\16\1\20"+
+            "\2\53\1\22\2\53\1\36\2\53\1\14\1\34\1\53\1\40\1\50\1\3\1\47"+
+            "\1\53\1\51\3\53\1\24\1\33\1\37",
+            "",
+            "\32\56\6\uffff\32\56",
+            "\1\60\6\uffff\1\57",
+            "\1\61",
+            "\1\63",
+            "\1\64\13\uffff\1\65",
+            "\1\66",
+            "",
+            "",
+            "\1\67",
+            "\1\71",
+            "\1\72",
+            "",
+            "\1\73",
+            "\1\74",
+            "\1\76\13\uffff\1\75",
+            "\1\77",
+            "\1\101",
+            "\1\102",
+            "",
+            "\1\103",
+            "",
+            "",
+            "",
+            "",
+            "\1\105",
+            "",
+            "\1\107\20\uffff\1\110",
+            "",
+            "\1\111",
+            "",
+            "\1\112",
+            "",
+            "",
+            "",
+            "\1\113",
+            "",
+            "\1\114",
+            "\1\115\2\uffff\1\116",
+            "\1\117",
+            "\1\120",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "\1\121",
+            "\1\122",
+            "",
+            "",
+            "\1\123",
+            "\1\124",
+            "\1\125",
+            "\1\126",
+            "",
+            "",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\131",
+            "\1\132",
+            "\1\133",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\136",
+            "",
+            "",
+            "",
+            "",
+            "\1\137",
+            "\1\140\5\uffff\1\141",
+            "\1\142",
+            "\1\143\2\uffff\1\144",
+            "\1\145",
+            "\1\146",
+            "\1\147",
+            "\1\150",
+            "\1\151",
+            "\1\152",
+            "\1\153",
+            "\1\154",
+            "\1\155",
+            "\1\156",
+            "\1\157",
+            "\1\160",
+            "",
+            "",
+            "\1\161",
+            "\1\162",
+            "\1\163",
+            "",
+            "",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\165",
+            "\1\166",
+            "\1\167\3\uffff\1\170",
+            "\1\171",
+            "\1\172",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\174",
+            "\1\175",
+            "\1\176",
+            "\1\177",
+            "\1\u0080",
+            "\1\u0081",
+            "\1\u0082",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\u0085",
+            "\1\u0086",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "\1\u008b",
+            "\1\u008c",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\u008e",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "\1\u0091",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\u0093",
+            "\1\u0094",
+            "\1\u0095",
+            "\1\u0096",
+            "\1\u0097",
+            "",
+            "",
+            "\1\u0098",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "",
+            "",
+            "",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "\1\u009c",
+            "",
+            "",
+            "\1\u009d",
+            "",
+            "\1\u009e",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\1\u00a2",
+            "\1\u00a3",
+            "",
+            "",
+            "",
+            "\1\u00a4",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "",
+            "",
+            "\1\u00a7",
+            "\1\u00a8",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            "",
+            "\1\u00aa",
+            "\1\u00ab",
+            "",
+            "\1\u00ac",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "\12\53\7\uffff\32\53\6\uffff\32\53",
+            "",
+            ""
+    };
+
+    static final short[] DFA5_eot = DFA.unpackEncodedString(DFA5_eotS);
+    static final short[] DFA5_eof = DFA.unpackEncodedString(DFA5_eofS);
+    static final char[] DFA5_min = DFA.unpackEncodedStringToUnsignedChars(DFA5_minS);
+    static final char[] DFA5_max = DFA.unpackEncodedStringToUnsignedChars(DFA5_maxS);
+    static final short[] DFA5_accept = DFA.unpackEncodedString(DFA5_acceptS);
+    static final short[] DFA5_special = DFA.unpackEncodedString(DFA5_specialS);
+    static final short[][] DFA5_transition;
+
+    static {
+        int numStates = DFA5_transitionS.length;
+        DFA5_transition = new short[numStates][];
+        for (int i=0; i<numStates; i++) {
+            DFA5_transition[i] = DFA.unpackEncodedString(DFA5_transitionS[i]);
+        }
+    }
+
+    class DFA5 extends DFA {
+
+        public DFA5(BaseRecognizer recognizer) {
+            this.recognizer = recognizer;
+            this.decisionNumber = 5;
+            this.eot = DFA5_eot;
+            this.eof = DFA5_eof;
+            this.min = DFA5_min;
+            this.max = DFA5_max;
+            this.accept = DFA5_accept;
+            this.special = DFA5_special;
+            this.transition = DFA5_transition;
+        }
+        public String getDescription() {
+            return "1:1: Tokens : ( AND | APOS | ARRAY | BECOMES | BOOLEAN | CCOMPEXPR | CHAR | COLON | COMMA | CONST | DIVIDE | DO | DOEND | DOTDOT | ELSE | EQ | FALSE | FUNC | GE | GT | IF | IFEND | INTEGER | LCURLY | LE | LPAREN | LSQUARE | LT | MINUS | MOD | NEG | NEQ | OR | PARAM | PLUS | PRINT | PRINTLN | PROC | PROGRAM | RCURLY | READ | RPAREN | RSQUARE | SEMICOLON | STRING | THEN | TIMES | TRUE | TYPE | UMINUS | UPLUS | VAR | WHILE | COMMENT | WS | IDENTIFIER | NUMBER | CHARACTER );";
+        }
+    }
+ 
+
+}

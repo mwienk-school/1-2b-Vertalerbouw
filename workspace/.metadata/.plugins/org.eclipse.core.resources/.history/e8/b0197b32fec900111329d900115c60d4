@@ -1,0 +1,7 @@
+proc increment(blaatInt) {
+	blaatInt = blaatInt + 1;
+}
+spawn eenInt;
+increment(eenInt);
+print(eenInt);
+

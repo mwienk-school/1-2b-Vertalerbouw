@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;vb.week3.calc&apos; to &apos;vb.week4.calc&apos;&#x0A;- Original project: &apos;VB-Week4&apos;&#x0A;- Original element: &apos;VB-Week4/src/vb.week3.calc&apos;&#x0A;- Renamed element: &apos;VB-Week4/src/vb.week4.calc&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;vb.week3.calc&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;vb.week3.calc" name="vb.week4.calc" qualified="false" references="true" stamp="1338128412112" textual="false" version="1.0"/>
+</session>

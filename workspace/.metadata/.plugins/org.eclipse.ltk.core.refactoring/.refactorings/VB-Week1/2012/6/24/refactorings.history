@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;VB-Eindopdracht/src/vb.eindopdracht.symboltable&apos;&#x0A;- Original project: &apos;VB-Week1&apos;&#x0A;- Destination element: &apos;VB-Eindopdracht/src/vb.eindopdracht.symboltable&apos;&#x0A;- Original elements:&#x0A;     vb.week1.symtab.SymbolTable.java&#x0A;     vb.week1.symtab.IdEntry.java" description="Copy compilation units" destination="=VB-Eindopdracht/src&lt;vb.eindopdracht.symboltable" element1="/src&lt;vb.week1.symtab{SymbolTable.java" element2="/src&lt;vb.week1.symtab{IdEntry.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1339599890774" units="2" version="1.0"/>
+</session>

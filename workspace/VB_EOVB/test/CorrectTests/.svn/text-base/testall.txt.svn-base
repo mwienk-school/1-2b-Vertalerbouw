@@ -1,0 +1,101 @@
+boolean w; 
+w = false;
+//---------int declaration--------
+int i;
+i = 3;
+int j; 
+j = 4;
+
+//---------char declaration--------
+char a;
+a = 'a';
+char b;
+b = 'b';
+
+//---------boolean declaration--------
+boolean t;
+t = true;
+boolean f;
+f = false;
+
+//---------procedure declaration without argument (if-statement)--------
+void changeCharAToV(){
+	if(i<7) then
+		a='v'
+	else
+		a='a'
+	fi
+};
+
+
+//---------procedure declaration with argument (while-statement)-------
+void changeCharATo(char c){
+	while(t && j<8) do
+		j=j+1;
+		if(i>7) then
+			a='i';
+			t=false
+		fi
+	od;
+	if(j==8) then
+		a=c
+	fi
+};
+
+
+//---------function declaration without argument ----------
+char changeCharBToK(){
+	b='k';
+	char changeCharBToN(){
+		b='n';
+		b
+	};
+	if(i>=7) then
+		b=changeCharBToN()
+	fi;
+	b
+};
+
+//---------function declaration with argument ----------
+char changeCharBTo(int m, char c){
+	char d;
+	if (m > 5) then	
+	d = c
+	else
+	d = '!'
+	fi;
+	d
+};
+
+
+
+//-------------
+changeCharAToV();
+print(a);
+i = 7;
+changeCharAToV();
+print(a);
+i=3;
+b=changeCharBToK();
+print(b);
+print(a);
+i = (4*4)/2;
+b=changeCharBToK();
+print(b);
+i = 2*3;
+j = 8;
+
+changeCharATo('t');
+print(a);
+j = 6;
+i = 11;
+changeCharATo('t');
+print(a);
+b=changeCharBTo(6,'e');
+print(b);
+b=changeCharBTo(1,'e');
+print(b)
+
+
+
+

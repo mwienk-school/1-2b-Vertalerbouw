@@ -1,0 +1,39 @@
+int i;
+char c;
+boolean b;
+
+print(i);
+//Expects: grammar.GrammarException: (i) on line:5 column:7 might not have been initialized
+
+print(c);
+//Expects: grammar.GrammarException: (c) on line:8 column:7 might not have been initialized
+
+print(b);
+//Expects: grammar.GrammarException: (b) on line:9 column:7 might not have been initialized
+
+int changeInt(int a, int d){
+	a=a + d;
+	a
+};
+
+char changeChar(char a, char d){
+	a=d;
+	a
+};
+
+boolean changeBoolean(boolean a, boolean d){
+	a=d;
+	a
+};
+
+changeInt(i,i);
+//Expects: grammar.GrammarException: (i) on line:24 column:11 might not have been initialized
+//Expects: grammar.GrammarException: (i) on line:24 column:13 might not have been initialized
+
+changeChar(c,c);
+//Expects: grammar.GrammarException: (c) on line:25 column:12 might not have been initialized
+//Expects: grammar.GrammarException: (c) on line:25 column:14 might not have been initialized
+
+changeBoolean(b,b)
+//Expects: grammar.GrammarException: (b) on line:26 column:15 might not have been initialized
+//Expects: grammar.GrammarException: (b) on line:26 column:17 might not have been initialized

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;vb.week3.calc&apos; to &apos;VB-Week4/src&apos;&#x0A;- Original project: &apos;VB-Week3&apos;&#x0A;- Destination element: &apos;VB-Week4/src&apos;&#x0A;- Original element: &apos;VB-Week3/src/vb.week3.calc&apos;" description="Copy package" destination="=VB-Week4/src" element1="/src&lt;vb.week3.calc" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1338128387857" version="1.0"/>
+</session>

@@ -1,0 +1,55 @@
+10
+
+dir
+54
+http://grammarkevinjeroen.googlecode.com/svn/trunk/src
+http://grammarkevinjeroen.googlecode.com/svn
+
+
+
+2010-07-07T14:47:44.620274Z
+52
+jjgmeijer
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+3f91ad4b-fc64-720b-5c87-97e6307d8ab4
+
+symbolTable
+dir
+
+codeStack
+dir
+
+codeGenerator
+dir
+
+checker
+dir
+
+register
+dir
+
+myTree
+dir
+
+grammar
+dir
+
+heapManager
+dir
+
+errorReporter
+dir
+

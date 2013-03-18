@@ -1,0 +1,10 @@
+java src.grammar.Grammar < test\SyntaxTests\testifstatement-err1.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testifstatement-err2.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testdeclaration-err.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testfunction-err1.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testfunction-err2.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testwhile-err1.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testwhile-err2.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testprocedure-err1.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testprocedure-err2.txt >obj.tasm
+java src.grammar.Grammar < test\SyntaxTests\testreference-err.txt >obj.tasm

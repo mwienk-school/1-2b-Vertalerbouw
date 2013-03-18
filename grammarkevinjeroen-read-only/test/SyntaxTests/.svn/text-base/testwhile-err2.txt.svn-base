@@ -1,0 +1,4 @@
+while i<3 do
+	i = i + 1
+
+//line 0:-1 mismatched input '<EOF>' expecting OD

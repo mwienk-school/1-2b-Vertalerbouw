@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<item value="true" key="CommitDialog.showUntracked"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Mark Wienk &lt;markwienk@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Mark Wienk &lt;markwienk@gmail.com&gt;"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/mwienk-school/Vertalerbouw.git"/>
+	</list>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item value="755" key="DIALOG_WIDTH"/>
+		<item value="116" key="DIALOG_Y_ORIGIN"/>
+		<item value="307" key="DIALOG_X_ORIGIN"/>
+		<item value="406" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item value="613" key="DIALOG_WIDTH"/>
+		<item value="80" key="DIALOG_Y_ORIGIN"/>
+		<item value="378" key="DIALOG_X_ORIGIN"/>
+		<item value="459" key="DIALOG_HEIGHT"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item value="574" key="DIALOG_WIDTH"/>
+		<item value="238" key="DIALOG_Y_ORIGIN"/>
+		<item value="223" key="DIALOG_HEIGHT"/>
+		<item value="397" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="856" key="DIALOG_WIDTH"/>
+		<item value="80" key="DIALOG_Y_ORIGIN"/>
+		<item value="459" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

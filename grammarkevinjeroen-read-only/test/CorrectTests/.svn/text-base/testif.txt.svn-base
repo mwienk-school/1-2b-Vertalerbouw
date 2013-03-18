@@ -1,0 +1,56 @@
+boolean w;
+w = false; 
+boolean c;
+c = false;
+//------------Vergelijkingen-----------
+if(5==6) then
+	w=true
+fi;
+
+if(5!=5) then
+	w=true
+fi;
+
+if(5>=6) then
+	w=true
+fi;
+
+if(6<=5) then
+	w=true
+fi;
+
+if(5>6) then
+	w=true
+fi;
+
+if(6<5) then
+	w=true
+fi;
+
+//-----------if-in-if------------
+if(5<6) then
+	if(4>6) then
+		w=true
+	else
+		c=true
+	fi
+else
+	w=true;
+fi;
+
+
+//---------if met variabele----------
+boolean b;
+b = true;
+
+if(!b) then
+	w=true
+fi;
+
+
+//----------done-------------
+if(b && !w && c) then
+	print('t')
+else
+	print('f')
+fi

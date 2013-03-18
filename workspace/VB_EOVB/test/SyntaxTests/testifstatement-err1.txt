@@ -1,0 +1,12 @@
+int i;
+i = 3; 
+
+if(i>=3) 
+	if(i==5) then
+		i = 100
+	else			
+		i = 200	
+	fi
+fi
+
+//line 5:1 missing THEN at 'if'
